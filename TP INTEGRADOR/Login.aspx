@@ -189,7 +189,9 @@
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style4">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Button ID="BTN_Enviar" runat="server" Text="Enviar" />
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
             </table>

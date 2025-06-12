@@ -59,6 +59,15 @@ Partial Public Class Login
     Protected WithEvents TB_Password As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Control BTN_Enviar.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents BTN_Enviar As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''Control DIV_InterfazAdmin.
     '''</summary>
     '''<remarks>
