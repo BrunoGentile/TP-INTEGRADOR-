@@ -90,6 +90,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Alta Paciente.aspx" />
+    <Content Include="AltaMedico.aspx" />
+    <Content Include="CargarPresenteyAusente.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Presencia.aspx" />
     <Content Include="Web.config" />
@@ -102,6 +104,20 @@
     </Compile>
     <Compile Include="Alta Paciente.aspx.vb">
       <DependentUpon>Alta Paciente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaMedico.aspx.designer.vb">
+      <DependentUpon>AltaMedico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaMedico.aspx.vb">
+      <DependentUpon>AltaMedico.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CargarPresenteyAusente.aspx.designer.vb">
+      <DependentUpon>CargarPresenteyAusente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CargarPresenteyAusente.aspx.vb">
+      <DependentUpon>CargarPresenteyAusente.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.vb">

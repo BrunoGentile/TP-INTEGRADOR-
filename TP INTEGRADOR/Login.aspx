@@ -287,14 +287,14 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style28">&nbsp;</td>
-                    <td class="auto-style27">&nbsp;</td>
-                    <td class="auto-style24">&nbsp;</td>
-                    <td class="auto-style6">&nbsp;</td>
-                    <td class="auto-style11">&nbsp;</td>
-                    <td class="auto-style13">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style7"></td>
+                    <td class="auto-style19"></td>
+                    <td class="auto-style25"></td>
+                    <td class="auto-style22"></td>
+                    <td class="auto-style9"></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style12"></td>
+                    <td class="auto-style8"></td>
                 </tr>
                 <tr>
                     <td class="auto-style29"></td>
