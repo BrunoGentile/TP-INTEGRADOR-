@@ -93,7 +93,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Presencia.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="ModificarMedico.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alta Paciente.aspx.designer.vb">
@@ -136,11 +136,11 @@
       <DependentUpon>Presencia.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="ModificarMedico.aspx.designer.vb">
+      <DependentUpon>ModificarMedico.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="ModificarMedico.aspx.vb">
+      <DependentUpon>ModificarMedico.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
