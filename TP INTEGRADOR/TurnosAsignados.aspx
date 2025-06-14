@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="ModificarMedico.aspx.vb" Inherits="TP_INTEGRADOR.WebForm1" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="TurnosAsignados.aspx.vb" Inherits="TP_INTEGRADOR.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -10,23 +10,23 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style2 {
+            width: 147px;
+        }
+        .auto-style3 {
+            width: 37px;
+        }
         .auto-style4 {
-            width: 258px;
+            width: 389px;
         }
         .auto-style5 {
-            width: 98px;
+            width: 156px;
         }
         .auto-style6 {
-            width: 151px;
+            width: 170px;
         }
         .auto-style7 {
-            width: 232px;
-        }
-        .auto-style9 {
-            width: 53px;
-        }
-        .auto-style10 {
-            width: 338px;
+            width: 169px;
         }
     </style>
 </head>
@@ -35,9 +35,9 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style9">&nbsp;</td>
-                    <td class="auto-style10">
-                        <asp:Label ID="lblUsuario" runat="server" Text="Usuario: Charly Garcia"></asp:Label>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:Label ID="lblUsuario" runat="server" Text="Usuario: Lionel Messi"></asp:Label>
                     </td>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
@@ -46,10 +46,10 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;</td>
-                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style4">
-                        <asp:Label ID="lblModificarMedico" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Modificar Medico"></asp:Label>
+                        <asp:Label ID="lblTurnosAsignados" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Turnos asignados"></asp:Label>
                     </td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style6">&nbsp;</td>
@@ -57,8 +57,8 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;</td>
-                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style6">&nbsp;</td>
@@ -66,9 +66,9 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;</td>
-                    <td class="auto-style10">
-                        <asp:Label ID="lblFiltrarLegajo" runat="server" Font-Size="Large" Text="Filtrar por legajo:"></asp:Label>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:Label ID="lblFiltrarLegajo" runat="server" Font-Size="Large" Text="Filtrar por paciente:"></asp:Label>
                     </td>
                     <td class="auto-style4">
                         <asp:TextBox ID="txtFiltrar" runat="server" Width="288px"></asp:TextBox>
@@ -81,8 +81,8 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;</td>
-                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style6">&nbsp;</td>
@@ -90,25 +90,16 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;</td>
-                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style4">
-                        <asp:GridView ID="gvMedicos" runat="server" AutoGenerateColumns="False" AutoGenerateEditButton="True" AutoGenerateSelectButton="True" Width="278px">
+                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" Width="384px">
                             <Columns>
-                                <asp:TemplateField HeaderText="Legajo"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="DNI"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Medico"></asp:TemplateField>
+                                <asp:TemplateField HeaderText="Paciente"></asp:TemplateField>
                                 <asp:TemplateField HeaderText="Especialidad"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Correo"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Telefono"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Sexo"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Nacimiento"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Nacionalidad"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Provincia"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Ciudad"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Direccion"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Dias de atencion"></asp:TemplateField>
-                                <asp:TemplateField HeaderText="Jornada"></asp:TemplateField>
+                                <asp:TemplateField HeaderText="Medico"></asp:TemplateField>
+                                <asp:TemplateField HeaderText="Dia"></asp:TemplateField>
+                                <asp:TemplateField HeaderText="Horario"></asp:TemplateField>
                             </Columns>
                         </asp:GridView>
                     </td>
@@ -118,8 +109,8 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;</td>
-                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style6">&nbsp;</td>

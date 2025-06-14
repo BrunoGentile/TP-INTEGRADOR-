@@ -32,13 +32,13 @@ Partial Public Class WebForm1
     Protected WithEvents lblUsuario As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control lblModificarMedico.
+    '''Control lblTurnosAsignados.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblModificarMedico As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblTurnosAsignados As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control lblFiltrarLegajo.
@@ -68,11 +68,11 @@ Partial Public Class WebForm1
     Protected WithEvents btnFiltrar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control gvMedicos.
+    '''Control GridView1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents gvMedicos As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
 End Class

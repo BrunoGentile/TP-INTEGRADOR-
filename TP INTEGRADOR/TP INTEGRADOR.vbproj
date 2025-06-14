@@ -94,6 +94,7 @@
     <Content Include="Presencia.aspx" />
     <Content Include="Web.config" />
     <Content Include="ModificarMedico.aspx" />
+    <Content Include="TurnosAsignados.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alta Paciente.aspx.designer.vb">
@@ -141,6 +142,13 @@
     </Compile>
     <Compile Include="ModificarMedico.aspx.vb">
       <DependentUpon>ModificarMedico.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TurnosAsignados.aspx.designer.vb">
+      <DependentUpon>TurnosAsignados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TurnosAsignados.aspx.vb">
+      <DependentUpon>TurnosAsignados.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
