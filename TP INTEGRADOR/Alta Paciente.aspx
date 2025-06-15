@@ -194,7 +194,8 @@
                     <td class="auto-style17">&nbsp;</td>
                     <td class="auto-style24">Nacionalidad:</td>
                     <td class="auto-style17">
-                        <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                        <asp:DropDownList ID="DropDownList3" runat="server">
+                        </asp:DropDownList>
                     </td>
                     <td class="auto-style18">&nbsp;</td>
                     <td class="auto-style18">&nbsp;</td>

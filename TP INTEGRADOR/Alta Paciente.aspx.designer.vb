@@ -77,13 +77,13 @@ Partial Public Class Alta_Paciente
     Protected WithEvents RadioButton2 As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
-    '''Control TextBox7.
+    '''Control DropDownList3.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox7 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents DropDownList3 As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control TextBox10.
